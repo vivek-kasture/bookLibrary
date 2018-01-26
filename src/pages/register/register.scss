@@ -59,20 +59,22 @@ page-register {
         background-image: url('../assets/icon/register-bg.png');
         background-repeat: no-repeat;
         background-position: center;
+        background-size: auto 125%;
         font-size: 1.8rem;
         font-weight: 600;
     }
     .sign-in-text{
         color: #FFFFFF;
         margin-left: 22%;
-        margin-top: 8%;
+        margin-top: 2%;
         font-weight: 400;
         font-family: ubuntu-regular;
     }
     .register-btn{
-        width: 86%;
-        margin-left: 6%;
         margin-top: 14%;
+    }
+    .button-full-md{
+        border-radius: 6px;
     }
     .label-md, .label-ios, .item-input .label-md, {
         color: #d9d9d4;
@@ -90,6 +92,9 @@ page-register {
     }
     button{
         font-family: ubuntu-regular;
+    }
+    .terms-condition.item-md.item-block .item-inner{
+        border-bottom: none;
     }
       
 }

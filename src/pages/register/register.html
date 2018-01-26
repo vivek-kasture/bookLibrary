@@ -36,13 +36,13 @@
           </ion-label>
       <ion-input [ngModel]="todo?.password1" (ngModelChange)="todo.password1 = $event" name="password1"></ion-input>
     </ion-item>
-    <ion-item>
+    <ion-item class="terms-condition">
         <ion-label>
             <span class="pad-rght-8"><img src="../assets/icon/tick-box.png" class="icon" /></span>
             Agree to Terms of Service
           </ion-label>
     </ion-item>
-    <button ion-button type="submit" class="register-btn" block>Register</button>
+    <button ion-button type="submit" class="register-btn" block full>Register</button>
   </form>
   <div class="sign-in-text">Already have an account? Sign In</div>
 </ion-content>
