@@ -1,44 +1,44 @@
 <ion-content class="register">
   <div class="close-button">
-    <img src="../assets/icon/cross-img.png" />
+    <img src="assets/icon/cross-img.png" />
   </div>
   <div class="userImage" style="position: relative;">
-    <img src="../assets/imgs/user.jpg" class="inner-user-image" />
-    <img src="../assets/icon/profile-ring.png" class="outer-user-image" />
-    <img src="../assets/icon/edit-icon.png" class="edit-icon" />
+    <img src="assets/imgs/user.jpg" class="inner-user-image" />
+    <img src="assets/icon/profile-ring.png" class="outer-user-image" />
+    <img src="assets/icon/edit-icon.png" class="edit-icon" />
   </div>
   <form (ngSubmit)="logForm()" padding>
     <ion-item>
       <ion-label>
-        <span class="pad-rght-8"><img src="../assets/icon/username.png" class="icon" /></span>
-        Name
+        <span class="pad-rght-8"><img src="assets/icon/username.png" class="icon" /></span>
+        Full Name
       </ion-label>
       <ion-input type="text" [ngModel]="todo?.name" (ngModelChange)="todo.name = $event" name="name"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label>
-          <span class="pad-rght-8"><img src="../assets/icon/email.png" class="icon" /></span>
+          <span class="pad-rght-8"><img src="assets/icon/email.png" class="icon" /></span>
           Email
         </ion-label>
       <ion-input [ngModel]="todo?.email" (ngModelChange)="todo.email = $event" name="email"></ion-input>
     </ion-item>
     <ion-item>
         <ion-label>
-            <span class="pad-rght-8"><img src="../assets/icon/password.png" class="icon" /></span>
+            <span class="pad-rght-8"><img src="assets/icon/password.png" class="icon" /></span>
             Password
           </ion-label>
       <ion-input [ngModel]="todo?.password" (ngModelChange)="todo.password = $event" name="password"></ion-input>
     </ion-item>
     <ion-item>
         <ion-label>
-            <span class="pad-rght-8"><img src="../assets/icon/confirm-password.png" class="icon" /></span>
+            <span class="pad-rght-8"><img src="assets/icon/confirm-password.png" class="icon" /></span>
             Confirm Password
           </ion-label>
       <ion-input [ngModel]="todo?.password1" (ngModelChange)="todo.password1 = $event" name="password1"></ion-input>
     </ion-item>
     <ion-item class="terms-condition">
         <ion-label>
-            <span class="pad-rght-8"><img src="../assets/icon/tick-box.png" class="icon" /></span>
+            <span class="pad-rght-8"><img src="assets/icon/tick-box.png" class="icon" /></span>
             Agree to Terms of Service
           </ion-label>
     </ion-item>

@@ -11,7 +11,7 @@ page-register {
     .item-md, .item-ios {
         background-color: transparent;
         padding-left: 0;
-        font-family: ubuntu-light;
+        font-family: "ubuntu-light" !important;
     }
     .icon{
         height: 18px;
@@ -59,7 +59,7 @@ page-register {
         background-image: url('../assets/icon/register-bg.png');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: auto 125%;
+        background-size: 100% 100%;
         font-size: 1.8rem;
         font-weight: 600;
     }
@@ -82,19 +82,10 @@ page-register {
     .item-md.item-block .item-inner{
         padding-right: 30px;
     }
-    @font-face {
-        font-family: 'ubuntu-light';
-        src: url('../assets/fonts/Ubuntu-Light') format('truetype');   
-    }
-    @font-face {
-        font-family: 'ubuntu-regular';
-        src: url('../assets/fonts/Ubuntu-Regular.ttf') format('truetype');      
-    }
     button{
-        font-family: ubuntu-regular;
+        font-family: "ubuntu-regular" !important;
     }
     .terms-condition.item-md.item-block .item-inner{
         border-bottom: none;
-    }
-      
+    } 
 }
