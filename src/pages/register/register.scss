@@ -1,0 +1,65 @@
+page-register {
+    .register {
+        background-image: url('../assets/imgs/backgroundImage.png');
+		width: 100%;
+		height: 100%;
+		opacity: rgba(0, 0, 0, 0.5);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+    }
+    .item-md, .item-ios {
+        background-color: transparent;
+    }
+    .icon{
+        height: 18px;
+        width: 18px;
+        color: #d9d9d4;
+    }
+    .pad-rght-8{
+        padding-right: 8px;
+    }
+    .userImage{
+        left: 50%;
+    }
+    .userImage img {
+        width: 120px;
+        margin-left: -60px;
+    }
+    .close-button{
+        margin-top: 10%;
+    }
+    .close-button img{
+        width: 10%;
+    }
+    .inner-user-image {
+        position: absolute;
+        top: 2%;
+        left: 1%;
+        border-radius: 50%;
+        width: 112px !important;
+        height: 114px !important;
+    }
+    .button-md, .button-ios{
+        text-transform: capitalize;
+        background-image: url('../assets/icon/register-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .sign-in-text{
+        color: #FFFFFF;
+        margin-left: 22%;
+        margin-top: 8%;
+        font-weight: 400;
+    }
+    .register-btn{
+        width: 86%;
+        margin-left: 6%;
+        margin-top: 14%;
+    }
+    .label-md, .label-ios, .item-input .label-md, {
+        color: #d9d9d4;
+    }
+}
