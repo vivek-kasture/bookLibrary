@@ -10,6 +10,8 @@ page-register {
     }
     .item-md, .item-ios {
         background-color: transparent;
+        padding-left: 0;
+        font-family: ubuntu-light;
     }
     .icon{
         height: 18px;
@@ -23,8 +25,8 @@ page-register {
         left: 50%;
     }
     .userImage img {
-        width: 120px;
-        margin-left: -60px;
+        // width: 120px;
+        // margin-left: -60px;
     }
     .close-button{
         margin-top: 10%;
@@ -34,11 +36,23 @@ page-register {
     }
     .inner-user-image {
         position: absolute;
-        top: 2%;
-        left: 1%;
+        top: 3px;
+        left: 3px;
         border-radius: 50%;
-        width: 112px !important;
-        height: 114px !important;
+        width: 115px !important;
+        height: 115px !important;
+        margin-left: -60px;
+    }
+    .outer-user-image{
+        width: 120px;
+        margin-left: -60px;
+    }
+    .edit-icon{
+        height: 26px;
+        width: 26px;
+        margin-left: -35px;
+        position: absolute;
+        top: 93px;
     }
     .button-md, .button-ios{
         text-transform: capitalize;
@@ -53,6 +67,7 @@ page-register {
         margin-left: 22%;
         margin-top: 8%;
         font-weight: 400;
+        font-family: ubuntu-regular;
     }
     .register-btn{
         width: 86%;
@@ -62,4 +77,19 @@ page-register {
     .label-md, .label-ios, .item-input .label-md, {
         color: #d9d9d4;
     }
+    .item-md.item-block .item-inner{
+        padding-right: 30px;
+    }
+    @font-face {
+        font-family: 'ubuntu-light';
+        src: url('../assets/fonts/Ubuntu-Light') format('truetype');   
+    }
+    @font-face {
+        font-family: 'ubuntu-regular';
+        src: url('../assets/fonts/Ubuntu-Regular.ttf') format('truetype');      
+    }
+    button{
+        font-family: ubuntu-regular;
+    }
+      
 }
